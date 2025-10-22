@@ -1,0 +1,19 @@
+# Segredos e variáveis de ambiente
+.env
+.env.*
+
+# Ambiente virtual do Python
+.venv/
+venv/
+env/
+
+# Pastas de cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Outros (pastas de IDE, logs, etc.)
+.idea/
+.vscode/
+*.log
