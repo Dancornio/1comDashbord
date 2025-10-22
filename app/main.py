@@ -1,7 +1,7 @@
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import streamlit as st
 
 
 url = 'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-18/food_consumption.csv'
@@ -18,3 +18,4 @@ plt.show()
 
 rice_consumption['consumption'].hist(color='red')
 plt.show()
+
